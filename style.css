@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+#container {
+  width: 60vw;
+  margin:auto;
+}
+
+#searchDiv {
+  width: 60%;
+  margin:auto;
+}
+
+#searchText {
+  width:69%;
+}
+
+#btnSearch {
+  width:29%;
+}
+
+#resultsDiv {
+  width:100%;
+}
+
+.resultDiv {
+  width:100%;
+  height:160px;
+  padding: 15px;
+  position: relative;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px grey;
+  transition: transform .5s;
+}
+
+.resultDiv:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.resultDiv h3 {
+  margin-top: 0;
+  color: red;
+}
+
+.resultDiv img {
+  float: left;
+  margin-right: 20px;
+}
+
+#buttonsDiv {
+  position:relative;
+  width:100%;
+  height:50px;
+  margin-top: 10px;
+}
+
+#btnNext, #btnPrev {
+  width: 100px;
+  height: 30px;
+}
+
+#btnNext {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+}
+
+#btnPrev {
+  position: absolute;
+  left: 0px;
+  top: 10px;
+}
